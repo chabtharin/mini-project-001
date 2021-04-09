@@ -1,7 +1,12 @@
+@font-face {
+    font-family: KhmerBTB;
+    src: url("fonts/KhmerOSbattambang.ttf");
+}
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: KhmerBTB;
 }
 body {
     background-color: rgba(136, 136, 136, 0.5)
