@@ -45,7 +45,7 @@ header {
     justify-content: space-between;
 }
 .card-container .title-section h1 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0px;
     padding: 0px;
 }
@@ -73,10 +73,12 @@ header {
     height: 250px;
     overflow: hidden;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 .card a img {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 .card .card-body {
     text-align: center;
