@@ -26,6 +26,9 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.navbar-layout div a img {
+    margin: 10px;
+}
 .nav-item a {
     float: right;
     margin: 0px 10px;
