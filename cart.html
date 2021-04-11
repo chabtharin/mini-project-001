@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ផ្សារអនឡាញ | កន្ត្រក</title>
+    <link rel="stylesheet" href="style.css">
+	<!-- <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/bootstrap-icons.css"> -->
+	<script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="images/logo-transparent.png" type="image/x-icon" style="border-radius: 50px;">
+</head>
+<body>
+	<nav class="navbar fixed-top">
+    <div class="row navbar-layout">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-2">
+            <a href="index.html"><img src="images/logo-transparent.png" alt="" width="45px" height="45px"></a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-6">
+            <div class="input-group search-bar">
+                <input type="text" class="form-control" placeholder="តើអ្នកកំពុងស្វែងរកអ្វី?" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/></svg>
+                </span>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+            <div class="nav-item">
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c2.757 0 5 2.243 5 5.001 0 2.756-2.243 5-5 5s-5-2.244-5-5c0-2.758 2.243-5.001 5-5.001zm0-2c-3.866 0-7 3.134-7 7.001 0 3.865 3.134 7 7 7s7-3.135 7-7c0-3.867-3.134-7.001-7-7.001zm6.369 13.353c-.497.498-1.057.931-1.658 1.302 2.872 1.874 4.378 5.083 4.972 7.346h-19.387c.572-2.29 2.058-5.503 4.973-7.358-.603-.374-1.162-.811-1.658-1.312-4.258 3.072-5.611 8.506-5.611 10.669h24c0-2.142-1.44-7.557-5.631-10.647z"/></svg>
+        </a>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 21c0 1.598-1.392 3-2.971 3s-3.029-1.402-3.029-3h6zm.137-17.055c-.644-.374-1.042-1.07-1.041-1.82v-.003c.001-1.172-.938-2.122-2.096-2.122s-2.097.95-2.097 2.122v.003c.001.751-.396 1.446-1.041 1.82-4.668 2.709-1.985 11.715-6.862 13.306v1.749h20v-1.749c-4.877-1.591-2.193-10.598-6.863-13.306zm-3.137-2.945c.552 0 1 .449 1 1 0 .552-.448 1-1 1s-1-.448-1-1c0-.551.448-1 1-1zm-6.451 16c1.189-1.667 1.605-3.891 1.964-5.815.447-2.39.869-4.648 2.354-5.509 1.38-.801 2.956-.76 4.267 0 1.485.861 1.907 3.119 2.354 5.509.359 1.924.775 4.148 1.964 5.815h-12.903z"/></svg>
+                </a>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 3l-.743 2h-1.929l-3.474 12h-13.239l-4.615-11h16.812l-.564 2h-13.24l2.937 7h10.428l3.432-12h4.195zm-15.5 15c-.828 0-1.5.672-1.5 1.5 0 .829.672 1.5 1.5 1.5s1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm6.9-7-1.9 7c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5z"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+  </nav>
+  <div class="container card-container independent-container">
+    <div class="independent-title">
+      <h1>សៀវភៅទាំងអស់</h1>
+      
+    </div>
+      <div class="row">
+        <div class="column-container col-xl-8 col-lg-8 col-md-7 col-sm-7 col-12">
+            <div class="card card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magni animi quos ipsa eveniet earum quo, pariatur, eius debitis consectetur blanditiis harum natus! Fuga quo, tempore facere voluptatem quas deserunt perspiciatis tenetur molestias cum ab dolorum, ipsam pariatur esse ipsum porro et perferendis aperiam hic at nesciunt possimus. Vero, perferendis nisi architecto voluptates atque ipsum asperiores quia iste, officiis illo dignissimos harum dolore beatae recusandae in eum! Aliquam consequatur animi quis, consectetur ut pariatur alias, eos culpa officia quia nobis, soluta sequi aperiam! Perferendis temporibus sapiente libero voluptatibus at corrupti iusto laboriosam ea, eius placeat nihil expedita repellat est doloribus accusamus maiores vitae maxime nesciunt velit repudiandae. Ducimus nihil similique suscipit adipisci incidunt velit consequuntur blanditiis, voluptatibus dolor quisquam repudiandae dolorem beatae quam eius quibusdam dolores, libero optio excepturi reprehenderit! Ea illum doloremque officiis a? In deserunt harum ut, laboriosam officia ducimus excepturi cupiditate commodi aut dignissimos sit distinctio nihil debitis aperiam molestiae et blanditiis numquam vero iure! A deserunt consequatur illo ratione blanditiis necessitatibus harum qui animi aperiam dolorem, quisquam autem illum, commodi ab, maiores itaque. Fugiat quam illo delectus eveniet earum sunt illum error aliquam totam atque ab accusamus quis enim ut voluptatibus ea, ad officia hic assumenda commodi ratione facilis magnam excepturi. Incidunt alias, fuga dolorem ex neque, error, aliquam corrupti amet deleniti temporibus ipsa rerum magnam. Eveniet libero, veritatis dicta magnam aut veniam, voluptatum saepe molestias aliquid laudantium nemo impedit a pariatur at cumque omnis recusandae nobis quibusdam, cum dolorum ut. Consectetur optio consequuntur ab rerum tempora voluptatem eveniet amet, similique, at cum eligendi sint aut iste! Hic in fuga reiciendis impedit dolores consectetur expedita maiores provident nesciunt, ullam aspernatur quibusdam. Omnis itaque at consequuntur officiis corrupti, rerum explicabo ex, sapiente repudiandae asperiores quibusdam possimus laboriosam voluptas a temporibus illo incidunt non modi! Amet ea molestiae provident aperiam blanditiis deserunt quos officia labore quo beatae consectetur sit minus sequi enim, voluptates numquam dolores fugiat vel non est dolore necessitatibus quisquam? Corporis ducimus voluptas fugiat provident accusantium nisi velit atque magni modi facilis ratione laborum rem obcaecati, totam repellat. Quo, laboriosam ad facere error neque, possimus eveniet quidem numquam aliquid non similique ipsum ullam totam commodi? Accusamus cupiditate nulla ex quos corporis laborum voluptatibus excepturi numquam, tempore vero non laudantium cum quo ullam consequatur rem incidunt iusto nemo ipsam architecto deleniti expedita quidem fugit pariatur? Fugit reprehenderit in sequi animi earum eaque mollitia facilis id laudantium, officiis adipisci quibusdam saepe. Reprehenderit repellendus numquam eos, accusantium expedita sequi porro fugiat cum fuga ratione saepe corrupti nobis nesciunt incidunt recusandae dolorum illum blanditiis quas. Voluptates architecto natus ullam sed, fuga officiis. Molestiae, officia velit, beatae culpa eius consequatur deserunt ullam cum libero aspernatur earum, ea accusantium. Dolorum qui dolores delectus ipsa velit quisquam magni in nobis exercitationem, similique nisi! Ipsa harum numquam quis ea repellat! Quo repudiandae ipsum veniam ut doloremque laborum totam natus facere eius sit commodi placeat facilis aspernatur libero aperiam nulla, sapiente quibusdam. Distinctio deleniti ea ex nisi molestiae sequi omnis aliquid pariatur debitis quod maxime fugit commodi cum, inventore tenetur ipsum cumque totam. Vero error, quod est dolorem, temporibus sed, nemo rem esse sequi dolor facere? Quo, reprehenderit. Optio corporis odit aspernatur quae, dolor vel ipsam blanditiis architecto tempore numquam ab expedita saepe iure illum, possimus doloribus laboriosam voluptatibus dolore, reiciendis explicabo eveniet magnam deleniti! Repellendus dolores quaerat in minima praesentium et, sint sapiente a, quos quod autem commodi obcaecati dolorum cumque rerum amet dignissimos quo libero at similique hic id necessitatibus eaque non. Culpa, quisquam natus repellendus blanditiis ex nulla necessitatibus sint est quos voluptas amet! Dolorem deleniti, ducimus ad accusamus totam unde, libero non nam cupiditate quas tempora corporis earum officia velit et error sapiente. Fugit eos voluptates nobis suscipit non animi accusamus accusantium a repudiandae sunt nemo, cupiditate tenetur aliquid nam iure reiciendis voluptas. Dolorem ratione quam velit ipsam quae quibusdam aspernatur aperiam distinctio accusamus, cupiditate optio, voluptates, veniam beatae officiis. Delectus, ut beatae doloribus ab rerum omnis nesciunt corrupti esse, culpa, atque laudantium facilis eveniet. Deserunt aut rem voluptatibus laborum earum quisquam explicabo eveniet quibusdam tempore quod consectetur repellendus, nobis modi quia temporibus harum similique veritatis distinctio cumque ipsa, repudiandae dignissimos? Consequatur iusto culpa quaerat adipisci deleniti dolore veniam blanditiis nesciunt. Adipisci, aut minima! Consequuntur vitae suscipit repellendus ab. Animi, repudiandae. Et nostrum quod harum suscipit aspernatur asperiores reprehenderit laboriosam impedit nisi illum, eligendi eveniet nulla molestias eaque cumque in dolor ea saepe laborum. Consectetur quisquam unde aperiam? Aliquid modi quasi at error animi deserunt dicta tempora? Veniam itaque laboriosam nam, deserunt dolore ea quis aliquam placeat. Similique iste sapiente alias laudantium, consequatur voluptates dicta. Possimus veritatis reiciendis ipsum sit itaque voluptatibus amet maiores consequatur. Veniam alias id laborum iure esse placeat inventore repellat ipsam blanditiis ratione accusantium optio fugit dolorum quos eaque, a enim adipisci sint voluptatibus ullam! Suscipit adipisci consequatur amet ipsum ducimus obcaecati ratione magni illum eaque accusamus. Doloribus tempora in vitae ad quia deserunt unde odio, pariatur deleniti voluptates enim quos, dolores molestiae aperiam dolorem. Quibusdam asperiores eveniet veniam autem ipsum laudantium perferendis nulla quod accusantium omnis. Voluptatibus atque ipsum, dicta aperiam vitae reprehenderit fugiat ratione at delectus doloribus facere quod modi aliquam. Magnam quod numquam officiis, repellendus sit est, at labore doloremque laboriosam libero facere corrupti reiciendis soluta sint repellat. Sint molestias quam placeat repellat tempora suscipit, rerum id modi, quibusdam mollitia consectetur exercitationem praesentium cum quod accusantium laborum atque sit odio optio. Omnis natus nobis corrupti similique voluptatibus totam voluptatum qui aspernatur amet. Impedit quod quae exercitationem porro necessitatibus quas quam aliquid accusantium, enim officia eius veniam aut libero cum temporibus similique hic quo fugiat eligendi voluptates illum harum eaque ducimus. Officiis facilis deserunt expedita harum nihil, minus amet corrupti! Ea nostrum, qui eos non consequatur pariatur, quas quis consequuntur illum voluptatibus quia praesentium commodi excepturi tenetur cumque! Placeat culpa consequuntur nesciunt nemo laborum eveniet, quae eaque tempore perspiciatis perferendis quibusdam quo dolore sapiente sequi voluptatum maxime dolorum repudiandae nobis, voluptatem rem. Quas esse magnam consectetur dolores provident perferendis minima, iure, beatae porro natus repellat.
+            </div>
+        </div>
+        <div class="column-container col-xl-4 col-lg-4 col-md-5 col-sm-5 col-12 ">
+            <div class="card cart-body bill-container">
+              <div class="row">
+                <h3 class="payment-cart-title text-center​">
+                  ការចំណាយសង្ខេប
+                </h3>
+                <hr>
+              </div>
+              <div class="row payment-content">
+                <div class="col-6">
+                  ថ្លៃធានារ៉ាប់រង
+                </div>
+                <div class="col-6">
+                  ៖ ០,០០ ៛
+                </div>
+              </div>
+              <div class="row payment-content">
+                <div class="col-6">
+                  ថ្លៃធានារ៉ាប់រង
+                </div>
+                <div class="col-6">
+                  ៖ ០,០០ ៛
+                </div>
+              </div>
+              <hr>
+              <div class="row payment-content">
+                <div class="col-6">
+                  ប្រាក់បង់
+                </div>
+                <div class="col-6">
+                  ៖ ០,០០ ៛
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-12">
+                  <button type="button" class="btn buy-button-cart" data-bs-toggle="modal" data-bs-target="#modal-2-1">បញ្ជាទិញឥឡូវ</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+  <footer>
+      <div class="container​ card-container footer-container">
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <p class="footer-title">
+              អំពីយើង
+            </p>
+            <p>
+              <a href="our-vision.html">
+                ចក្ខុវិស័យរបស់ពួកយើង
+              </a>
+            </p>
+            <p>
+              <a href="policy.html">
+                គោលការណ៍របស់ពួកយើង
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <p class="footer-title">
+              ទំនាក់ទំនង
+            </p>
+            <p>
+              អ៊ីម៉ែល ៖ 
+              <a href="mailto:chabtharin@gmail.com">
+                chabtharin@gmail.com
+              </a>
+            </p>
+            <p>
+              ទូរស័ព្ទ ៖ 
+              <a href="callto:+855640290">
+                +៨៥៥ ៦៤០​ ២៩០
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <p class="footer-title">
+              បណ្តាញសង្គម
+            </p>
+            <div class="row text-center">
+              <div class="col-12 social-icon">
+                <a href="https://t.me/chabtharin" target="_blank">
+                  <?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path id="telegram-4" d="M12,0c-6.626,0 -12,5.372 -12,12c0,6.627 5.374,12 12,12c6.627,0 12,-5.373 12,-12c0,-6.628 -5.373,-12 -12,-12Zm3.224,17.871c0.188,0.133 0.43,0.166 0.646,0.085c0.215,-0.082 0.374,-0.267 0.422,-0.491c0.507,-2.382 1.737,-8.412 2.198,-10.578c0.035,-0.164 -0.023,-0.334 -0.151,-0.443c-0.129,-0.109 -0.307,-0.14 -0.465,-0.082c-2.446,0.906 -9.979,3.732 -13.058,4.871c-0.195,0.073 -0.322,0.26 -0.316,0.467c0.007,0.206 0.146,0.385 0.346,0.445c1.381,0.413 3.193,0.988 3.193,0.988c0,0 0.847,2.558 1.288,3.858c0.056,0.164 0.184,0.292 0.352,0.336c0.169,0.044 0.348,-0.002 0.474,-0.121c0.709,-0.669 1.805,-1.704 1.805,-1.704c0,0 2.084,1.527 3.266,2.369Zm-6.423,-5.062l0.98,3.231l0.218,-2.046c0,0 3.783,-3.413 5.941,-5.358c0.063,-0.057 0.071,-0.153 0.019,-0.22c-0.052,-0.067 -0.148,-0.083 -0.219,-0.037c-2.5,1.596 -6.939,4.43 -6.939,4.43Z"/></svg>
+                </a>
+                <a href="https://www.facebook.com/tharin.chab/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/chabtharin/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center copy-right">
+        <img src="images/logo-transparent.png" alt="" width="50px" height="50px">
+        ​&COPY; រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ ចាប ថារីន ឆ្នាំ​២០២១
+      </div>
+  </footer>
+</body>
+</html>

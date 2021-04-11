@@ -295,6 +295,30 @@ p a:hover {
     text-align: center;
     line-height: 3;
 }
+.bill-container {
+    position: sticky;
+    top: 0;
+}
+.payment-cart-title {
+    text-align: center;
+    line-height: 3;
+}
+.cart-body {
+    padding: 20px;
+}
+.payment-content div {
+    line-height: 3;
+}
+.btn.buy-button-cart {
+    background-color: tomato;
+    color: white;
+    border-radius: 22px;
+}
+.btn.buy-button-cart:hover {
+    color: white;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.315);
+}
 @media screen and (max-width: 1024px) {
     .carousel-inner {
         height: 450px;
