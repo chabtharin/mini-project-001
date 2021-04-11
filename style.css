@@ -299,6 +299,20 @@ p a:hover {
     position: sticky;
     top: 0;
 }
+li.list-group-item {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+li.list-group-item .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.col-1 .form-check-input:checked {
+    border: none;
+    background-color: tomato;
+}
 .payment-cart-title {
     text-align: center;
     line-height: 3;
