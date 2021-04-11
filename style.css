@@ -333,6 +333,9 @@ li.list-group-item .row {
     outline: none;
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.315);
 }
+.row.cart-row {
+    margin: 10px;
+}
 @media screen and (max-width: 1024px) {
     .carousel-inner {
         height: 450px;
