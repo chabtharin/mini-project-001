@@ -370,6 +370,9 @@ a.pay-link {
     color: lightslategrey;
     text-align: right;
 }
+.form-control.input-field {
+    border-radius: 22px;
+}
 @media screen and (max-width: 1024px) {
     .carousel-inner {
         height: 450px;
