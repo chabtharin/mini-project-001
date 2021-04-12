@@ -223,7 +223,7 @@ header {
     color: white;
 }
 .independent-container {
-    margin: 80px 0px;
+    margin: 80px 0px 20px 0px;
 }
 .modal .modal-content {
     border-radius: 22px;
@@ -361,6 +361,14 @@ a.pay-link {
 .list-left {
     text-align: left;
     margin: 10px 0px;
+}
+.login-container {
+    text-align: center;
+    padding: 200px;
+}
+.time {
+    color: lightslategrey;
+    text-align: right;
 }
 @media screen and (max-width: 1024px) {
     .carousel-inner {
