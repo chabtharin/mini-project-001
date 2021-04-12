@@ -295,10 +295,10 @@ p a:hover {
     text-align: center;
     line-height: 3;
 }
-.bill-container {
+/* .column-container.bill-container {
     position: sticky;
-    top: 0;
-}
+    top: 200px;
+} */
 li.list-group-item {
     border-top: none;
     border-left: none;
@@ -336,14 +336,40 @@ li.list-group-item .row {
 .row.cart-row {
     margin: 10px;
 }
+.total-bill {
+    font-size: 24px;
+}
+.col-12 .btn {
+    border-radius: 22px;
+}
+.btn svg:hover {
+    fill: tomato;
+}
+.cart-product-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+a.pay-link {
+    height: 10px;
+}
+.col-12.bill-link {
+    height: 50px;
+}
+.description {
+    margin: 10px 0px 50px 0px;
+}
+.list-left {
+    text-align: left;
+    margin: 10px 0px;
+}
 @media screen and (max-width: 1024px) {
     .carousel-inner {
         height: 450px;
         overflow: hidden;
     }
-    .modal-content {
+    /* .modal-content {
         margin-top: 50%;
-    }
+    } */
     .card a {
         margin-top: 30px;
     }
@@ -356,10 +382,10 @@ li.list-group-item .row {
     .banner-image-02, .banner-image-04 {
         margin-top: 15px;
     }
-    .modal-content {
+    /* .modal-content {
         margin-top: 15%;
         margin-bottom: 15%;
-    }
+    } */
     .card a {
         margin-top: 30px;
     }

@@ -46,10 +46,9 @@
   <div class="container card-container independent-container">
     <div class="independent-title">
       <h1>ទំនិញក្នុងកន្រ្តក</h1>
-      
     </div>
       <div class="row">
-        <div class="column-container col-xl-8 col-lg-8 col-md-7 col-sm-7 col-12">
+        <div class="column-container col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
             <div class="card card-body">
               <ul class="list-group">
                 <li class="list-group-item">
@@ -62,24 +61,84 @@
                     </div>
                     <div class="col-8">
                       <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 cart-product-title">
                           បាល់បោះ
                         </div>
                       </div>
                       <hr>
                       <div class="row">
-                        <div class="col-7">
+                        <div class="col-6">
                           តម្លៃ ៖ ២០០០០ ៛
                         </div>
-                        <div class="col-5">
-                          ចំនួន ៖ ២
+                        <div class="col-6">
+                          <div class="row">
+                            <div class="col-6">
+                              ចំនួន ៖
+                            </div>
+                            <div class="col-6">
+                              <input type="text" class="form-control" value="៣" placeholder="ចំនួន">
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div class="col-1">
                       <div class="row">
                         <div class="col-12">
-                          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9 3h6v-1.75c0-.066-.026-.13-.073-.177-.047-.047-.111-.073-.177-.073h-5.5c-.066 0-.13.026-.177.073-.047.047-.073.111-.073.177v1.75zm11 1h-16v18c0 .552.448 1 1 1h14c.552 0 1-.448 1-1v-18zm-10 3.5c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm5 0c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm8-4.5v1h-2v18c0 1.105-.895 2-2 2h-14c-1.105 0-2-.895-2-2v-18h-2v-1h7v-2c0-.552.448-1 1-1h6c.552 0 1 .448 1 1v2h7z"/></svg>
+                          <button type="button" class="btn delete-cart" data-bs-toggle="modal" data-bs-target="#modal-2-1">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9 3h6v-1.75c0-.066-.026-.13-.073-.177-.047-.047-.111-.073-.177-.073h-5.5c-.066 0-.13.026-.177.073-.047.047-.073.111-.073.177v1.75zm11 1h-16v18c0 .552.448 1 1 1h14c.552 0 1-.448 1-1v-18zm-10 3.5c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm5 0c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm8-4.5v1h-2v18c0 1.105-.895 2-2 2h-14c-1.105 0-2-.895-2-2v-18h-2v-1h7v-2c0-.552.448-1 1-1h6c.552 0 1 .448 1 1v2h7z"/></svg>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- <div class="row">
+                        <div class="col-12 bill-link">
+                          <a href="#payment-section" class="pay-link">
+                            <button type="button" class="btn delete-cart">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.164 7.165c-1.15.191-1.702 1.233-1.231 2.328.498 1.155 1.921 1.895 3.094 1.603 1.039-.257 1.519-1.252 1.069-2.295-.471-1.095-1.784-1.827-2.932-1.636zm1.484 2.998l.104.229-.219.045-.097-.219c-.226.041-.482.035-.719-.027l-.065-.387c.195.03.438.058.623.02l.125-.041c.221-.109.152-.387-.176-.453-.245-.054-.893-.014-1.135-.552-.136-.304-.035-.621.356-.766l-.108-.239.217-.045.104.229c.159-.026.345-.036.563-.017l.087.383c-.17-.021-.353-.041-.512-.008l-.06.016c-.309.082-.21.375.064.446.453.105.994.139 1.208.612.173.385-.028.648-.36.774zm10.312 1.057l-3.766-8.22c-6.178 4.004-13.007-.318-17.951 4.454l3.765 8.22c5.298-4.492 12.519-.238 17.952-4.454zm-2.803-1.852c-.375.521-.653 1.117-.819 1.741-3.593 1.094-7.891-.201-12.018 1.241-.667-.354-1.503-.576-2.189-.556l-1.135-2.487c.432-.525.772-1.325.918-2.094 3.399-1.226 7.652.155 12.198-1.401.521.346 1.13.597 1.73.721l1.315 2.835zm2.843 5.642c-6.857 3.941-12.399-1.424-19.5 5.99l-4.5-9.97 1.402-1.463 3.807 8.406-.002.007c7.445-5.595 11.195-1.176 18.109-4.563.294.648.565 1.332.684 1.593z"/></svg>
+                            </button>
+                          </a>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row cart-row">
+                    <div class="col-1">
+                      <input class="form-check-input" type="checkbox">
+                    </div>
+                    <div class="col-2">
+                      <img src="images/pen.png" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="col-8">
+                      <div class="row">
+                        <div class="col-12 cart-product-title">
+                          ប៊ិចគ្រប់ពណ៌
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-6">
+                          តម្លៃ ៖ ១០០០០ ៛
+                        </div>
+                        <div class="col-6">
+                          <div class="row">
+                            <div class="col-6">
+                              ចំនួន ៖
+                            </div>
+                            <div class="col-6">
+                              <input type="text" class="form-control" value="១" placeholder="ចំនួន">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-1">
+                      <div class="row">
+                        <div class="col-12">
+                          <button type="button" class="btn delete-cart" data-bs-toggle="modal" data-bs-target="#modal-2-1">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9 3h6v-1.75c0-.066-.026-.13-.073-.177-.047-.047-.111-.073-.177-.073h-5.5c-.066 0-.13.026-.177.073-.047.047-.073.111-.073.177v1.75zm11 1h-16v18c0 .552.448 1 1 1h14c.552 0 1-.448 1-1v-18zm-10 3.5c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm5 0c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm8-4.5v1h-2v18c0 1.105-.895 2-2 2h-14c-1.105 0-2-.895-2-2v-18h-2v-1h7v-2c0-.552.448-1 1-1h6c.552 0 1 .448 1 1v2h7z"/></svg>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -91,28 +150,37 @@
                       <input class="form-check-input" type="checkbox">
                     </div>
                     <div class="col-2">
-                      <img src="images/ball.png" alt="" width="50px" height="50px">
+                      <img src="images/skirt.png" alt="" width="50px" height="50px">
                     </div>
                     <div class="col-8">
                       <div class="row">
-                        <div class="col-12">
-                          បាល់បោះ
+                        <div class="col-12 cart-product-title">
+                          រ៉ូប នារី
                         </div>
                       </div>
                       <hr>
                       <div class="row">
-                        <div class="col-7">
+                        <div class="col-6">
                           តម្លៃ ៖ ២០០០០ ៛
                         </div>
-                        <div class="col-5">
-                          ចំនួន ៖ ២
+                        <div class="col-6">
+                          <div class="row">
+                            <div class="col-6">
+                              ចំនួន ៖
+                            </div>
+                            <div class="col-6">
+                              <input type="text" class="form-control" value="៥" placeholder="ចំនួន">
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div class="col-1">
                       <div class="row">
                         <div class="col-12">
-                          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9 3h6v-1.75c0-.066-.026-.13-.073-.177-.047-.047-.111-.073-.177-.073h-5.5c-.066 0-.13.026-.177.073-.047.047-.073.111-.073.177v1.75zm11 1h-16v18c0 .552.448 1 1 1h14c.552 0 1-.448 1-1v-18zm-10 3.5c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm5 0c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm8-4.5v1h-2v18c0 1.105-.895 2-2 2h-14c-1.105 0-2-.895-2-2v-18h-2v-1h7v-2c0-.552.448-1 1-1h6c.552 0 1 .448 1 1v2h7z"/></svg>
+                          <button type="button" class="btn delete-cart" data-bs-toggle="modal" data-bs-target="#modal-2-1">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9 3h6v-1.75c0-.066-.026-.13-.073-.177-.047-.047-.111-.073-.177-.073h-5.5c-.066 0-.13.026-.177.073-.047.047-.073.111-.073.177v1.75zm11 1h-16v18c0 .552.448 1 1 1h14c.552 0 1-.448 1-1v-18zm-10 3.5c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm5 0c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm8-4.5v1h-2v18c0 1.105-.895 2-2 2h-14c-1.105 0-2-.895-2-2v-18h-2v-1h7v-2c0-.552.448-1 1-1h6c.552 0 1 .448 1 1v2h7z"/></svg>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -124,28 +192,37 @@
                       <input class="form-check-input" type="checkbox">
                     </div>
                     <div class="col-2">
-                      <img src="images/ball.png" alt="" width="50px" height="50px">
+                      <img src="images/shirt.png" alt="" width="50px" height="50px">
                     </div>
                     <div class="col-8">
                       <div class="row">
-                        <div class="col-12">
-                          បាល់បោះ
+                        <div class="col-12 cart-product-title">
+                          អាវ​ បុរស
                         </div>
                       </div>
                       <hr>
                       <div class="row">
-                        <div class="col-7">
+                        <div class="col-6">
                           តម្លៃ ៖ ២០០០០ ៛
                         </div>
-                        <div class="col-5">
-                          ចំនួន ៖ ២
+                        <div class="col-6">
+                          <div class="row">
+                            <div class="col-6">
+                              ចំនួន ៖
+                            </div>
+                            <div class="col-6">
+                              <input type="text" class="form-control" value="២" placeholder="ចំនួន">
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div class="col-1">
                       <div class="row">
                         <div class="col-12">
-                          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9 3h6v-1.75c0-.066-.026-.13-.073-.177-.047-.047-.111-.073-.177-.073h-5.5c-.066 0-.13.026-.177.073-.047.047-.073.111-.073.177v1.75zm11 1h-16v18c0 .552.448 1 1 1h14c.552 0 1-.448 1-1v-18zm-10 3.5c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm5 0c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm8-4.5v1h-2v18c0 1.105-.895 2-2 2h-14c-1.105 0-2-.895-2-2v-18h-2v-1h7v-2c0-.552.448-1 1-1h6c.552 0 1 .448 1 1v2h7z"/></svg>
+                          <button type="button" class="btn delete-cart" data-bs-toggle="modal" data-bs-target="#modal-2-1">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9 3h6v-1.75c0-.066-.026-.13-.073-.177-.047-.047-.111-.073-.177-.073h-5.5c-.066 0-.13.026-.177.073-.047.047-.073.111-.073.177v1.75zm11 1h-16v18c0 .552.448 1 1 1h14c.552 0 1-.448 1-1v-18zm-10 3.5c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm5 0c0-.276-.224-.5-.5-.5s-.5.224-.5.5v12c0 .276.224.5.5.5s.5-.224.5-.5v-12zm8-4.5v1h-2v18c0 1.105-.895 2-2 2h-14c-1.105 0-2-.895-2-2v-18h-2v-1h7v-2c0-.552.448-1 1-1h6c.552 0 1 .448 1 1v2h7z"/></svg>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -154,8 +231,8 @@
               </ul>
             </div>
         </div>
-        <div class="column-container col-xl-4 col-lg-4 col-md-5 col-sm-5 col-12 ">
-            <div class="card cart-body bill-container">
+        <div class="column-container col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 bill-container"​ id="payment-section">
+            <div class="card cart-body">
               <div class="row">
                 <h3 class="payment-cart-title text-center​">
                   ការចំណាយសង្ខេប
@@ -180,10 +257,10 @@
               </div>
               <hr>
               <div class="row payment-content">
-                <div class="col-6">
-                  ប្រាក់ត្រូវបង់សរុប
+                <div class="col-6 total-bill">
+                  ចំណាយសរុប
                 </div>
-                <div class="col-6">
+                <div class="col-6 total-bill">
                   ៖ ០,០០ ៛
                 </div>
               </div>
