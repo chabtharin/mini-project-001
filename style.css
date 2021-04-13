@@ -366,8 +366,56 @@ a.pay-link {
     margin: 10px 0px;
 }
 .login-container {
-    text-align: center;
-    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-card {
+    max-width: 450px;
+}
+.input-login {
+    display: flex;
+    justify-content: center;
+}
+.login-input {
+    padding: 25px 50px;
+}
+.biggest-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-label {
+    line-height: 2.5;
+    width: 100%;
+    text-align: left;
+    margin-left: 5px;
+}
+.no-account {
+    line-height: 3;
+    padding: 0px;
+    margin: 0px;
+}
+a.no-height {
+    height: 100%;
+    margin: 0px 5px;
+    padding: 0px;
+    color: tomato;
+    text-decoration: none;
+}
+.col-12.no-account-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.password-group {
+    margin-top: 25px;
+}
+.form-control#email, .form-control#pwd, .form-control#confirm-pwd{
+    border: none;
+    border-radius: 22px;
+    box-shadow: 2px 2px 5px rgba(136, 136, 136, 0.5);
 }
 .time {
     color: lightslategrey;
@@ -383,17 +431,24 @@ a.pay-link {
 .profile-name {
     line-height: 3;
 }
+.profile-card {
+    display: flex;
+    justify-content: center;
+}
+a.log-out {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
 @media screen and (max-width: 1024px) {
     .carousel-inner {
         height: 450px;
         overflow: hidden;
     }
-    /* .modal-content {
-        margin-top: 50%;
-    } */
-    .card a {
+    /* .card a {
         margin-top: 30px;
-    }
+    } */
 }
 @media screen and (max-width: 767.98px) {
     .carousel-inner {
@@ -403,23 +458,19 @@ a.pay-link {
     .banner-image-02, .banner-image-04 {
         margin-top: 15px;
     }
-    /* .modal-content {
-        margin-top: 15%;
-        margin-bottom: 15%;
-    } */
-    .card a {
+    /* .card a {
         margin-top: 30px;
-    }
+    } */
 }
 @media screen and (max-width: 574.98px) {
     .navbar {
         padding: 0px;
     }
-    .card a {
+    /* .card a {
         margin-top: 30px;
         display: flex;
         justify-content: center;
-    }
+    } */
     .card a img {
         height: 90%;
         width: auto;
