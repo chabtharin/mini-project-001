@@ -446,9 +446,6 @@ a.log-out {
         height: 450px;
         overflow: hidden;
     }
-    /* .card a {
-        margin-top: 30px;
-    } */
 }
 @media screen and (max-width: 767.98px) {
     .carousel-inner {
@@ -458,19 +455,11 @@ a.log-out {
     .banner-image-02, .banner-image-04 {
         margin-top: 15px;
     }
-    /* .card a {
-        margin-top: 30px;
-    } */
 }
 @media screen and (max-width: 574.98px) {
     .navbar {
         padding: 0px;
     }
-    /* .card a {
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-    } */
     .card a img {
         height: 90%;
         width: auto;
