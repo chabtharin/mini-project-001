@@ -298,10 +298,6 @@ p a:hover {
     text-align: center;
     line-height: 3;
 }
-/* .column-container.bill-container {
-    position: sticky;
-    top: 200px;
-} */
 li.list-group-item {
     border-top: none;
     border-left: none;
@@ -312,7 +308,7 @@ li.list-group-item .row {
     align-items: center;
     flex-direction: row;
 }
-.col-1 .form-check-input:checked {
+.col-12 .form-check-input:checked {
     border: none;
     background-color: tomato;
 }
@@ -338,6 +334,8 @@ li.list-group-item .row {
 }
 .row.cart-row {
     margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 .total-bill {
     font-size: 24px;
@@ -441,6 +439,10 @@ a.log-out {
     justify-content: center;
     text-decoration: none;
 }
+.card a{
+    display: flex;
+    justify-content: center;
+}
 @media screen and (max-width: 1024px) {
     .carousel-inner {
         height: 450px;
@@ -460,6 +462,10 @@ a.log-out {
     .navbar {
         padding: 0px;
     }
+    .carousel-inner {
+        height: 200px;
+        overflow: hidden;
+    }
     .card a img {
         height: 90%;
         width: auto;
@@ -475,6 +481,12 @@ a.log-out {
     .nav-item a {
         margin: 0px 3px;
         text-decoration: none;
+    }
+    .item-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 5px;
     }
 }
 
