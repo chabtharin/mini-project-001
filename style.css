@@ -377,6 +377,9 @@ a.pay-link {
     border-radius: 50%;
     margin-bottom: 20px;
 }
+.profile-name {
+    line-height: 3;
+}
 @media screen and (max-width: 1024px) {
     .carousel-inner {
         height: 450px;
