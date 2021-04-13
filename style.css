@@ -9,6 +9,9 @@
     font-family: KhmerBTB;
     outline: none;
 }
+::selection {
+    background: tomato;
+  }
 html {
     scroll-behavior: smooth;
 }
